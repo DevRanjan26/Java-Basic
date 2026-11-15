@@ -1,3 +1,40 @@
+// Online Java Compiler (Editor)
+// Write and run Java online using this editor.
 
-cls
-Name
+class Main {
+public static int add (int a,int b)
+    {return a+b;        
+    }
+    public static int sub (int a, int b)
+    {
+        return a-b ;
+            }
+    public static int product (int a, int b)
+    {
+        return a * b ;
+    }    
+    public static int quotient (int a, int b)
+    {
+        return a / b ;
+    }
+    public static int remainder (int a, int b)
+    {
+        return a % b;
+                                         }
+    
+    public static void main(String[] args) {
+        String name = "Ranjan";
+        String nameone = "Aditya";
+        String nametwo = "Aakash";
+        System.out.println(name);
+        System.out.print(nameone);
+        System.out.println(nametwo);
+             System.out.println("English" + name + " ,");
+        System.out.println("Hindi" + nameone + " ," + nametwo);
+    System.out.println(add(2,2));
+        System.out.println(sub(2,2));
+        System.out.println(product(3,3));
+            System.out.println(quotient(5,2));
+        System.out.println(remainder(5,2));
+    }
+}
